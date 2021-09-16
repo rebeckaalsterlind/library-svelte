@@ -1,0 +1,34 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The Body",
+      "author": "Bill Bryson",
+      "rented": false
+    },
+    {
+      "id": 2,
+      "title": "bok 2",
+      "author": "ett namn",
+      "rented": true
+    },
+    {
+      "id": 232,
+      "title": "test",
+      "author": "ghsdf",
+      "rented": true
+    },
+    {
+      "id": 115,
+      "title": "ny",
+      "author": "ehsrth",
+      "rented": true
+    },
+    {
+      "id": 634,
+      "title": "iop",
+      "author": "ioy",
+      "rented": false
+    }
+  ]
+}
