@@ -37,7 +37,7 @@
 </script> 
 
 <style>
-  div{
+  article{
     border: 1px solid grey;
   }
 
@@ -46,12 +46,15 @@
   }
 </style>
 
-<div>
+<article>
   <h3>Title: {book.title}</h3>
   <h5>Author: {book.author}</h5>
+  {#if book.url !== undefined} 
+  <img src={book.url} alt={book.title + " by " + book.author} height="100" />
+  {/if}
   {#if book.rented}
   <p>rented</p>
   {:else}
   <button id={book.id} on:click={handleClick}>Rent book</button>
   {/if}
-</div>
+</article>

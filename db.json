@@ -4,12 +4,14 @@
       "id": 1,
       "title": "The Body",
       "author": "Bill Bryson",
+      "url": "img/TheBody-BillBryson.jpg",
       "rented": false
     },
     {
       "id": 2,
-      "title": "bok 2",
-      "author": "ett namn",
+      "title": "The Almost Nearly Perfect People",
+      "author": "Michael Booth",
+      "url": "img/TANPP-MichaelBooth.jpg",
       "rented": true
     },
     {
