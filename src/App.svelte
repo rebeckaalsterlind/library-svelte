@@ -9,7 +9,7 @@
 
 		fetch("http://localhost:3000/books")
 		.then(res => res.json())
-		.then(data => {
+	  .then(data => {
 			books = data
 		})
 
@@ -19,7 +19,6 @@
 	
 
 	const addBook = (newBook) => {
-	//	const newBook = evt.detail;
 
 		fetch(`http://localhost:3000/books`, {
 			method: "post",
@@ -37,26 +36,37 @@
 
 
 
-<main>
-  <h2>My library!</h2>
- <Books {books}/>
- <Form {addBook} />
-</main>
+<div>
+		<header>
+			<h1>My Svelte<br />library</h1>
+			<Form {addBook} />
+		</header>
+		<Books {books}/>
+</div>
 
 
 
 <style>
-	main {
+	div {
 		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
+		padding: 2em;
+		display: flex;
+		flex-flow: row wrap;
+	}
+
+	header {
+		margin-top: 50px;
+		width: 100%;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-evenly;
 	}
 
 	h1 {
-		color: #ff3e00;
+		color: rgb(22, 3, 30);
+		text-shadow: .5px .5px 3px gold;
 		text-transform: uppercase;
 		font-size: 4em;
-		font-weight: 100;
+		font-weight: 900;
 	}
 </style>

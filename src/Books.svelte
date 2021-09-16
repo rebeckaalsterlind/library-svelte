@@ -4,15 +4,21 @@
   export let books;
 </script> 
 
-<div>
+<main>
   {#each books as book}
     <Book {book} />
   {:else}
     <p>Fetching books...</p> 
   {/each}
-</div>
+</main>
 
 
 
 <style>
+  main {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin-top: 50px;
+  }
 </style>

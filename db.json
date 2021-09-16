@@ -16,20 +16,16 @@
     },
     {
       "id": 232,
-      "title": "test",
-      "author": "ghsdf",
+      "title": "Winnie-the-Pooh",
+      "author": "A. A. Milne",
+      "url": "img/WhinnieThePooh-AAMilne.jpeg",
       "rented": true
     },
     {
-      "id": 115,
-      "title": "ny",
-      "author": "ehsrth",
-      "rented": true
-    },
-    {
-      "id": 634,
-      "title": "iop",
-      "author": "ioy",
+      "id": 732,
+      "title": "En ny bok",
+      "author": "En ny författare",
+      "url": "img/noBook.png",
       "rented": false
     }
   ]
